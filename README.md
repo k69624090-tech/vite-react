@@ -1,21 +1,21 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sora Prompt Generator (Next.js)
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+Minimal Next.js app (App Router) to generate bilingual Sora prompts with a fixed consistency profile.
 
-## Deploy Your Own
-
-Deploy your own Vite project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
-
-_Live Example: https://vite-react-example.vercel.app_
-
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
+## Local Run
+```bash
+npm install
+npm run dev
+# open http://localhost:3000
 ```
+
+## Deploy to Vercel
+1. Push this folder to a GitHub repo.
+2. Import the repo on https://vercel.com (select **Framework Preset: Next.js**).
+3. Deploy. That's it.
+
+## Notes
+- Node.js 18+ recommended.
+- TailwindCSS included.
+- All logic is in `components/SoraPromptGenerator.tsx`.
